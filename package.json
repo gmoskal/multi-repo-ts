@@ -1,0 +1,23 @@
+{
+  "name": "formless",
+  "description": "Data driven react forms (written in ts)",
+  "license": "MIT",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b packages/formless-core packages/formless-antd",
+    "build:all": "lerna exec yarn build",
+    "clean": "./cleanup.sh",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna exec yarn test",
+    "info": "yarn workspaces info"
+  },
+  "devDependencies": {
+    "@types/node": "13.5.2",
+    "lerna": "3.20.2",
+    "typescript": "3.7.5"
+  }
+}

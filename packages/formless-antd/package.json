@@ -1,0 +1,12 @@
+{
+  "name": "@formless/antd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@formless/core": "^1.0.0"
+  },
+  "devDependencies": {}}
